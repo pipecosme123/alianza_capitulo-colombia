@@ -9,9 +9,9 @@ const Nav = () => {
 
    const [clickMenu, setClickMenu] = useState(false);
 
-   function handleMenu() {
+   // function handleMenu() {
 
-   }
+   // }
 
    return (
       // <img src="" alt="" className="imgLogoNav" /> onClick={() => handleMenu()}

@@ -1,5 +1,14 @@
 let LogoAlianza = "https://imagenes.kagencia.com/alianza/logoAlianza.svg";
 
+// Logos Aliados 
+let aliado1 = "https://imagenes.kagencia.com/alianza/aliados/UniversidadBosque.jpg";
+let aliado2 = "https://imagenes.kagencia.com/alianza/aliados/Manizales.jpg";
+let aliado3 = "https://imagenes.kagencia.com/alianza/aliados/Antioquia.jpg";
+let aliado4 = "https://imagenes.kagencia.com/alianza/aliados/Valle.jpg";
+let aliado5 = "https://imagenes.kagencia.com/alianza/aliados/ColgateLogo.jpg";
+let aliado6 = "https://imagenes.kagencia.com/alianza/aliados/Coomeva.jpg";
+let aliado7 = "https://imagenes.kagencia.com/alianza/aliados/Acop.jpg";
+
 // 1
 let boton_nosotros = "https://imagenes.kagencia.com/alianza/01Index/boton_nosotros.jpg";
 let boton_objetivos = "https://imagenes.kagencia.com/alianza/01Index/boton_objetivos.jpg";
@@ -22,6 +31,16 @@ let aplicacion_barniz_objetivos = "https://imagenes.kagencia.com/alianza/03Obejt
 export const Logos = {
     "LogoAlianza": LogoAlianza
 };
+
+export const Aliados = [
+    {"aliado": aliado1},
+    {"aliado": aliado2},
+    {"aliado": aliado3},
+    {"aliado": aliado4},
+    {"aliado": aliado5},
+    {"aliado": aliado6},
+    {"aliado": aliado7}
+];
 
 export const Images_01Index = {
     "boton_nosotros": boton_nosotros,

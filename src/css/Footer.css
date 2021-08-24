@@ -1,0 +1,125 @@
+.footer h3 {
+    font-family: "Leelawadee Bold";
+    font-size: 32px;
+    color: #464e6d;
+    margin-bottom: 8px;
+}
+
+.footer p, .footer span {
+    font-family: "Leelawadee UI Semilight";
+    color: #464e6d;
+}
+
+div.footer {
+    width: 100vw;
+    margin-left: -8px;
+    background: crimson;
+}
+
+/*  Seccion 1   */
+
+.footer .seccion1 {
+    background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+
+.footer .seccion1 .img {
+    align-self: flex-end;
+    margin-bottom: -4px;
+}
+
+.footer .seccion1 .img img {
+    width: 300px;
+}
+
+.footer .seccion1 .paraPacientes {
+    text-align: left;
+    margin-left: 48px;
+}
+
+.footer .seccion1 .paraPacientes p {
+    width: 500px;
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+.footer .seccion1 .paraPacientes button {
+    font-family: "Leelawadee Bold";
+    font-size: 29px;
+    color: #fff;
+    padding: 16px;
+    background: #464e6d;
+    outline: none;
+    border: 0px;
+    width: 280px;
+    margin-left: 24px;
+}
+
+/*  Seccion 2   */
+
+.seccion2 {
+    padding: 32px 0;
+    text-align: center;
+    background: #fefefe;
+}
+
+.seccion2 .aliados{
+    margin: 32px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccion2 .aliados img{
+    width: auto;
+    height: 13em;
+}
+
+/*  Seccion 2   */
+
+.seccion3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ececec;
+    padding: 16px 10em 48px;
+}
+
+.seccion3 .socialMedia{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 0;
+}
+
+.seccion3 .socialMedia a{
+    width: 40px;
+    height: 40px;
+    color: #ececec;
+    background: #908e8d;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion4{
+    background: #1e298c;
+    text-align: left;
+    padding: 16px 13em;
+}
+
+.seccion4 h3{
+    margin: 10px 0;
+    color: #fff;
+}
+
+.seccion4 span{
+    margin: 0;
+    color: #fff;
+}
