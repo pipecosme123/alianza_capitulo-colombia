@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Leelawadee Bold";
+  src: url("../fonts/leelawadee_bold.ttf");
+}
+
+@font-face {
+  font-family: "Leelawadee Regular";
+  src: url("../fonts/leelawadee_regular.ttf");
+}
+
+@font-face {
+  font-family: "Leelawadee UI Bold";
+  src: url("../fonts/leelawadee_ui_bold.ttf");
+}
+
+@font-face {
+  font-family: "Leelawadee UI Regular";
+  src: url("../fonts/leelawadee_ui_regular.ttf");
+}
+
+@font-face {
+  font-family: "Leelawadee UI Semilight";
+  src: url("../fonts/leelawadee_ui_semilight.ttf");
+}
+
+.App {
+  text-align: center;
+}
+
+.container{
+  padding: 0 5em;
+}
