@@ -1,4 +1,4 @@
-let LogoAlianza = "https://imagenes.kagencia.com/alianza/LogoACFF.png";
+let LogoAlianza = "https://imagenes.kagencia.com/alianza/logoAlianza.svg";
 
 // 1
 let boton_nosotros = "https://imagenes.kagencia.com/alianza/01Index/boton_nosotros.jpg";
