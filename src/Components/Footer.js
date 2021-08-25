@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes } from '../Constants/Routes';
 import { FaYoutube } from 'react-icons/fa';
 import { SiInstagram } from 'react-icons/si';
 import { GrFacebookOption } from 'react-icons/gr';
@@ -15,7 +16,7 @@ const Footer = () => {
             <div className="paraPacientes">
                <h3>Para pacientes</h3>
                <p>Encuentra maretial educativo en línea para usted y su familia</p>
-               <button>Descúbrelo</button>
+               <a href={Routes.descubrelo}>Descúbrelo</a>
             </div>
          </div>
          <div className="seccion2">
@@ -29,9 +30,9 @@ const Footer = () => {
          <div className="seccion3">
             <h3>Sigue ACFF Capítulo Colombia</h3>
             <div className="socialMedia">
-               <a href="##"><FaYoutube /></a>
-               <a href="##"><SiInstagram /></a>
-               <a href="##"><GrFacebookOption /></a>
+               <a href={Routes.youtube}><FaYoutube /></a>
+               <a href={Routes.instagram}><SiInstagram /></a>
+               <a href={Routes.facebook}><GrFacebookOption /></a>
             </div>
          </div>
          <div className="seccion4">

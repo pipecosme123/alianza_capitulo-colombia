@@ -5,5 +5,11 @@ export const Routes = {
     "Proyectos": "/Proyectos",
     "Recursos": "/Recursos",
     "Noticias": "/Noticias",
-    "Unete_a_Nosotros": "/Unete_a_Nosotros"
+    "Unete_a_Nosotros": "/Unete_a_Nosotros",
+    "descubrelo":"##",
+    "ACFFGlobal":"##",
+    "facebook":"https://es-la.facebook.com/",
+    "twitter":"https://twitter.com/?lang=es",
+    "youtube":"https://www.youtube.com/",
+    "instagram":"https://www.instagram.com/?hl=es",
 };

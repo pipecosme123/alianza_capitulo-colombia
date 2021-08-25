@@ -30,16 +30,16 @@ const Nav = () => {
                   <li className="btns">
                      <hr />
                      <div className="mobileWeb">
-                        <a href="##"><BiWorld /></a>
-                        <a href="##"><ImFacebook /></a>
-                        <a href="##"><ImTwitter /></a>
+                        <a href={Routes.ACFFGlobal}><BiWorld /></a>
+                        <a href={Routes.facebook}><ImFacebook /></a>
+                        <a href={Routes.twitter}><ImTwitter /></a>
                      </div>
                   </li>
                </ul>
                <ul className="itemsNav web">
-                  <li><a href="##"><BiWorld /> Visite el sitio web de la ACFF Global </a></li>
-                  <li><a href="##"><ImFacebook /></a></li>
-                  <li><a href="##"><ImTwitter /></a></li>
+                  <li><a href={Routes.ACFFGlobal}><BiWorld /> Visite el sitio web de la ACFF Global </a></li>
+                  <li><a href={Routes.facebook}><ImFacebook /></a></li>
+                  <li><a href={Routes.twitter}><ImTwitter /></a></li>
                </ul>
             </div>
             <span className="btn_menu" onClick={() => { setClickMenu(!clickMenu); console.log(clickMenu) }}>
