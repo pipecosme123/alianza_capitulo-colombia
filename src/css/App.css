@@ -25,9 +25,10 @@
 
 .App {
   text-align: center;
-  background: #525252;
+  width: 1fr;
 }
 
-.container{
-  padding: 0 5em;
+body {
+  display: block;
+  margin: 0px;
 }

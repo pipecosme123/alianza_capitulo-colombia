@@ -1,4 +1,6 @@
 let LogoAlianza = "https://imagenes.kagencia.com/alianza/logoAlianza.svg";
+let logoPeople1 = "https://imagenes.kagencia.com/alianza/logos/people1.svg";
+let logoPeople2 = "https://imagenes.kagencia.com/alianza/logos/people2.svg";
 
 // Logos Aliados 
 let aliado1 = "https://imagenes.kagencia.com/alianza/aliados/UniversidadBosque.jpg";
@@ -29,17 +31,19 @@ let aplicacion_barniz_objetivos = "https://imagenes.kagencia.com/alianza/03Obejt
 
 
 export const Logos = {
-    "LogoAlianza": LogoAlianza
+    "LogoAlianza": LogoAlianza,
+    "logoPeople1": logoPeople1,
+    "logoPeople2": logoPeople2
 };
 
 export const Aliados = [
-    {"aliado": aliado1},
-    {"aliado": aliado2},
-    {"aliado": aliado3},
-    {"aliado": aliado4},
-    {"aliado": aliado5},
-    {"aliado": aliado6},
-    {"aliado": aliado7}
+    { "aliado": aliado1 },
+    { "aliado": aliado2 },
+    { "aliado": aliado3 },
+    { "aliado": aliado4 },
+    { "aliado": aliado5 },
+    { "aliado": aliado6 },
+    { "aliado": aliado7 }
 ];
 
 export const Images_01Index = {
