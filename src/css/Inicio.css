@@ -1,0 +1,156 @@
+.paginaInicio {
+    width: auto;
+}
+
+.cabezote {
+    font-family: "Leelawadee Bold";
+    display: flex;
+}
+
+.cabezoteText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    background: rgba(250, 250, 250, .50);
+    height: 600px;
+    width: 300px;
+    left: 10em;
+    padding: 0 2em;
+    font-size: 1.5em;
+    text-align: left;
+    color: #464e6d;
+}
+
+.cabezote .imgCabezote {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.sec {
+    font-family: "Leelawadee UI Semilight";
+    margin: 0 15em;
+}
+
+.paginaInicio .seccion1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.paginaInicio .seccion1 img {
+    width: auto;
+    height: 650px;
+    align-self: flex-end;
+}
+
+.paginaInicio .seccion1 p {
+    width: 15em;
+    font-size: 1.7em;
+    text-align: left;
+    margin: 0 8em;
+}
+
+.paginaInicio .seccion2PI {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion2PI .textSeccion {
+    width: 50%;
+    background: #464e6d;
+    color: #fff;
+    font-family: "Leelawadee UI Semilight";
+    font-size: 2em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion2PI .textSeccion p {
+    padding: 2em;
+}
+
+.seccion2PI .imgSeccion2 {
+    width: 50%;
+}
+
+.seccion2PI .imgSeccion2 img.imgSec2 {
+    width: 100%;
+    height: 100%;
+}
+
+.paginaInicio .seccion3PI {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion3PI .imgSeccion3 {
+    width: 50%;
+}
+
+.seccion3PI .imgSeccion3 img.imgSec3 {
+    width: 100%;
+    height: 100%;
+}
+
+.seccion3PI .textSeccion {
+    width: 50%;
+    background: #d3edf1;
+    color: #464e6d;
+    font-family: "Leelawadee Bold";
+    font-size: 2em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion3PI .textSeccion p {
+    padding: 2em;
+}
+
+.seccionImage .imgBar {
+    width: 100%;
+}
+
+.seccionLinkBar {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 0 5em;
+}
+
+@media only screen and (max-width: 1440px) {
+    .sec {
+        margin: 0 10em;
+    }
+
+    .cabezoteText {
+        left: 2em;
+    }
+
+    .paginaInicio .seccion1 {
+        height: 350px;
+    }
+
+    .paginaInicio .seccion1 img {
+        height: 500px;
+    }
+
+    .paginaInicio .seccion1 p {
+        width: 30em;
+        font-size: 1.2em;
+    }
+
+    .seccion2PI .textSeccion {
+        font-size: 1.5em;
+    }
+
+    .seccion2PI .textSeccion p {
+        padding: 0 3em;
+        margin: 0;
+    }
+}

@@ -1,0 +1,14 @@
+.LinkBar{
+    width: 18em;
+    background: #d3edf1;
+}
+
+.LinkBar img{
+    width: 100%;
+}
+
+.LinkBar a{
+    font-family: "Leelawadee UI Bold";
+    text-decoration: none;
+    color: #464e6d;
+}
