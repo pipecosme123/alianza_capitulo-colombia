@@ -5,7 +5,7 @@ export const Routes = {
     "Proyectos": "/Proyectos",
     "Recursos": "/Recursos",
     "Noticias": "/Noticias",
-    "Unete_a_Nosotros": "/Unete_a_Nosotros",
+    "UneteNosotros": "/UneteNosotros",
     "descubrelo":"##",
     "ACFFGlobal":"##",
     "facebook":"https://es-la.facebook.com/",

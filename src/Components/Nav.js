@@ -26,7 +26,7 @@ const Nav = () => {
                   <li><a href={Routes.Proyectos}>Proyectos</a></li>
                   <li><a href={Routes.Recursos}>Recursos</a></li>
                   <li><a href={Routes.Noticias}>Noticias</a></li>
-                  <li><a href={Routes.Unete_a_Nosotros}><b>Únete a Nosotros</b></a></li>
+                  <li><a href={Routes.UneteNosotros}><b>Únete a Nosotros</b></a></li>
                   <li className="btns">
                      <hr />
                      <div className="mobileWeb">
