@@ -11,7 +11,7 @@
     padding: 0;
 }
 
-.logo .imgLogoNav {
+.logo a img.imgLogoNav {
     width: 130px;
 }
 
@@ -84,7 +84,7 @@ ul.show {
         font-size: 16px;
     }
 
-    .logo .imgLogoNav {
+    .logo a img.imgLogoNav {
         width: 100px;
     }
 
@@ -99,7 +99,7 @@ ul.show {
         display: block;
     }
 
-    .logo .imgLogoNav {
+    .logo a img.imgLogoNav {
         width: 80px;
     }
 
