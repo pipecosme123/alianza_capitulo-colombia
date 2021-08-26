@@ -1,0 +1,31 @@
+.Nosotros{
+    margin-bottom: 5em;
+}
+.Nosotros div.textSeccionNosotros{
+    text-align: left;
+    font-size: 1.5em;
+    padding: 2em 0;
+    color: #464e6d;
+    font-family: "Leelawadee Regular";
+}
+
+.Nosotros .seccionImage{
+    width: 100%;
+    background: #464e6d;
+}
+
+.Nosotros .seccionImage img{
+    width: 84%;
+}
+
+.Nosotros .textSeccionNosotros.text2{
+    background: #ececec;
+}
+
+.Nosotros .textSeccionNosotros2{
+    margin: 0 2em;
+}
+
+.Nosotros .seccionImage.img2{
+    background: #d3edf1;
+}
