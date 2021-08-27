@@ -1,0 +1,49 @@
+.Objetivos {
+    font-size: 1.5em;
+    color: #464e6d;
+    font-family: "Leelawadee Regular";
+    text-align: left;
+}
+
+.Objetivos .textObjetivos {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.Objetivos .seccionImg{
+    background: #464e6d;
+}
+
+.Objetivos .seccionImg .img{
+    display: flex;
+}
+
+.Objetivos .seccionImg .img img{
+    width: 100%;
+}
+
+.Objetivos .seccionBarniz {
+    padding: 0 1em;
+    background: #d3edf1;
+    margin-bottom: 5em;
+}
+
+.seccionBarniz .sBarniz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionBarniz .sBarniz .img{
+    display: flex;
+    width: 50%;
+}
+
+.seccionBarniz .sBarniz .img img {
+    width: 70%;
+    /* margin: 0 auto; */
+}
+
+.seccionBarniz .sBarniz .textSeccion {
+    width: 70%;
+}
