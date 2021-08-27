@@ -82,12 +82,12 @@ export const Images_03ObejtivosACFF = {
 export const Images_04Proyectos = {
     "GobiernoDeColombia": GobiernoDeColombia,
     "Instrumento": Instrumento,
-    "DiaInternacionalDelCepillado": DiaInternacionalDelCepillado,
-    "CarnetDenral": CarnetDenral,
-    "JuegoRayuela": JuegoRayuela
+    "DiaInternacionalDelCepillado": DiaInternacionalDelCepillado
 }
 
 export const Images_05Recursos = {
+    "CarnetDenral": CarnetDenral,
+    "JuegoRayuela": JuegoRayuela,
     "SeparadorLibros": SeparadorLibros,
     "CarnetdeSaludOral": CarnetdeSaludOral,
     "CartillaSoyNiño": CartillaSoyNiño

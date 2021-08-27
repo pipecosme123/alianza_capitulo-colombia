@@ -1,0 +1,28 @@
+.Recursos{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.Recursos .logRecursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 4em;
+}
+
+.logRecursos .logos{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background: #ececec;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center !important;
+}
+
+.logRecursos .logos img{
+    width: 150px;
+    height: 150px;
+}
