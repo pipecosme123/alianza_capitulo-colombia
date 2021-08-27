@@ -5,7 +5,8 @@
     margin-bottom: 8px;
 }
 
-.footer p, .footer span {
+.footer p,
+.footer span {
     font-family: "Leelawadee UI Semilight";
     color: #464e6d;
 }
@@ -67,7 +68,7 @@ div.footer {
     background: #fefefe;
 }
 
-.seccion2 .aliados{
+.seccion2 .aliados {
     margin: 32px 0;
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +76,7 @@ div.footer {
     align-items: center;
 }
 
-.seccion2 .aliados img{
+.seccion2 .aliados img {
     width: auto;
     height: 13em;
     margin: 0 2em;
@@ -91,14 +92,14 @@ div.footer {
     padding: 16px 20em 48px;
 }
 
-.seccion3 .socialMedia{
+.seccion3 .socialMedia {
     width: 150px;
     display: flex;
     justify-content: space-between;
     margin: 16px 0 0;
 }
 
-.seccion3 .socialMedia a{
+.seccion3 .socialMedia a {
     width: 40px;
     height: 40px;
     color: #ececec;
@@ -112,7 +113,7 @@ div.footer {
 
 /*  Seccion 4   */
 
-.seccion4{
+.seccion4 {
     background: #1e298c;
     text-align: left;
     padding: 16px 10em 0;
@@ -120,22 +121,113 @@ div.footer {
     height: auto;
 }
 
-.seccion4 .img{
+.seccion4 .img {
     width: 300px;
     align-self: flex-end;
 }
 
-.seccion4 .img img{
+.seccion4 .img img {
     width: auto;
     height: 170px;
 }
 
-.seccion4 h3{
+.seccion4 h3 {
     margin: 10px 0;
     color: #fff;
 }
 
-.seccion4 span{
+.seccion4 span {
     margin: 0;
     color: #fff;
+}
+
+
+@media screen and (max-width: 858px) {
+    .footer h3 {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .footer .seccion1 {
+        flex-direction: column;
+        /**/
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 270px;
+        padding-bottom: 5px;
+    }
+
+    .footer .seccion1 .img {
+        align-self: center;
+        margin-bottom: -4px;
+    }
+
+    .footer .seccion1 .img img {
+        width: 100px;
+    }
+
+    .footer .seccion1 .paraPacientes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .seccion1 .paraPacientes p {
+        width: 90%;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .footer .seccion1 .paraPacientes a {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .seccion2 {
+        padding: 32px 0 0;
+    }
+
+    .seccion2 .aliados img {
+        width: auto;
+        height: 5em;
+        margin: 0 2em;
+    }
+
+    .seccion2 .aliados {
+        margin: 22px 0 0;
+    }
+
+    .seccion3 {
+        justify-content: center;
+        align-items: center;
+        padding: 1em 2em;
+    }
+
+    .seccion4 {
+        text-align: center;
+        padding: 0 3em 1em;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .seccion4 .img {
+        display: none;
+    }
+
+
+    .seccion4 h3 {
+        margin: 10px 0;
+        color: #fff;
+    }
+
+    .seccion4 span {
+        font-size: 7px;
+    }
 }
