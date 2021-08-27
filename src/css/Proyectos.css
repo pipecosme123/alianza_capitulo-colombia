@@ -1,0 +1,41 @@
+.Proyectos{
+    color: #464e6d;
+}
+
+.Proyectos .textCabezote{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.Proyectos .seccionProyecto{
+    background: #ececec;
+}
+
+.Proyectos .seccionProyecto .sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.Proyectos .seccionProyecto img{
+    width: 20%;
+    height: 20%;
+    padding: 0.5em;
+    margin: 0.5em;
+    background: #fff;
+    border-radius: 2em;
+}
+
+.Proyectos .seccionProyecto .textProyecto{
+    width: 50%;
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.2em;
+}
+
+.Proyectos .seccionProyecto .textProyecto h3{
+    font-family: "Leelawadee Bold";
+    font-size: 1.5em;
+}

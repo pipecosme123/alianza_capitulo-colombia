@@ -29,6 +29,18 @@ let grupo_nosotros_ninos = "https://imagenes.kagencia.com/alianza/02Nosotros/gru
 let ninos_objetivos = "https://imagenes.kagencia.com/alianza/03ObejtivosACFF/ninos_objetivos.jpg";
 let aplicacion_barniz_objetivos = "https://imagenes.kagencia.com/alianza/03ObejtivosACFF/aplicacion_barniz_objetivos.jpg";
 
+// 4
+let GobiernoDeColombia = "https://imagenes.kagencia.com/alianza/04Proyectos/GobiernoDeColombia.svg";
+let Instrumento = "https://imagenes.kagencia.com/alianza/04Proyectos/Instrumento.svg";
+let DiaInternacionalDelCepillado = "https://imagenes.kagencia.com/alianza/04Proyectos/DiaInternacionalDelCepillado.svg";
+
+// 5
+let CarnetDenral = "https://imagenes.kagencia.com/alianza/05Recursos/CarnetDenral.svg"
+let JuegoRayuela = "https://imagenes.kagencia.com/alianza/05Recursos/JuegoRayuela.svg"
+let SeparadorLibros = "https://imagenes.kagencia.com/alianza/05Recursos/SeparadorLibros.svg"
+let CarnetdeSaludOral = "https://imagenes.kagencia.com/alianza/05Recursos/CarnetdeSaludOral.svg"
+let CartillaSoyNiño = "https://imagenes.kagencia.com/alianza/05Recursos/CartillaSoyNiño.svg"
+
 
 export const Logos = {
     "LogoAlianza": LogoAlianza,
@@ -66,6 +78,20 @@ export const Images_03ObejtivosACFF = {
     "ninos_objetivos": ninos_objetivos,
     "aplicacion_barniz_objetivos": aplicacion_barniz_objetivos
 };
+
+export const Images_04Proyectos = {
+    "GobiernoDeColombia": GobiernoDeColombia,
+    "Instrumento": Instrumento,
+    "DiaInternacionalDelCepillado": DiaInternacionalDelCepillado,
+    "CarnetDenral": CarnetDenral,
+    "JuegoRayuela": JuegoRayuela
+}
+
+export const Images_05Recursos = {
+    "SeparadorLibros": SeparadorLibros,
+    "CarnetdeSaludOral": CarnetdeSaludOral,
+    "CartillaSoyNiño": CartillaSoyNiño
+}
 
 
 
