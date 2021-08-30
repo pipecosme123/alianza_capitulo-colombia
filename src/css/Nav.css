@@ -9,6 +9,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* margin: -8px; */
     padding: 0;
+    z-index: 1000;
 }
 
 .logo a img.imgLogoNav {
@@ -106,6 +107,7 @@ ul.show {
     .navbar {
         height: 100px;
         justify-content: space-around;
+
     }
 
     .btn_menu {
@@ -123,9 +125,10 @@ ul.show {
         transition: all .4s;
         flex-direction: column;
         padding: 0;
-        /* margin-top: 0; */
+        margin-top: 10px;
+        /*  */
         padding-right: 25px;
-        z-index: -10000;
+        z-index: 1;
         margin: 0;
     }
 
@@ -135,7 +138,7 @@ ul.show {
     }
 
     ul.itemsNav.show {
-        top: 15vh;
+        top: 16vh;
         padding-right: 25px;
     }
 

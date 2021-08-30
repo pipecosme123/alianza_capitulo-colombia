@@ -1,6 +1,7 @@
 .Recursos{
     font-size: 1.5em;
     text-align: left;
+    color: #464e6d;
 }
 
 .Recursos .logRecursos{
@@ -25,4 +26,28 @@
 .logRecursos .logos img{
     width: 150px;
     height: 150px;
+}
+
+@media screen and (max-width: 858px) {
+    .Recursos{
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .logRecursos .logos{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        background: #ececec;
+        padding: 0.5em;
+        margin: 0.2em;
+        text-align: center !important;
+    }
+
+    .logRecursos .logos img{
+        width: 6em;
+        height: 6em;
+    }
 }

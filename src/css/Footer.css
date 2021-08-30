@@ -185,6 +185,7 @@ div.footer {
     .footer .seccion1 .paraPacientes a {
         font-size: 20px;
         width: 150px;
+        margin-left: 0px;
     }
 
     .seccion2 {

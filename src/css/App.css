@@ -32,3 +32,14 @@ body {
   display: block;
   margin: 0px;
 }
+
+.sec {
+  font-family: "Leelawadee UI Semilight";
+  margin: 0 15em;
+}
+
+@media screen and (max-width: 858px) {
+  .sec {
+    margin: 0 1em;
+  }
+}

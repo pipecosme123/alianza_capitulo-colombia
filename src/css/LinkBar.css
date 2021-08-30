@@ -12,3 +12,18 @@
     text-decoration: none;
     color: #464e6d;
 }
+
+@media screen and (max-width: 858px) {
+    .LinkBar{
+        width: 10em;
+        margin: 0 0.2em;
+    }
+    
+    .LinkBar img{
+        width: 100%;
+    }
+    
+    .LinkBar a h2{
+        font-size: 0.8em;
+    }
+}

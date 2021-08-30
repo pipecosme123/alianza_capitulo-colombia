@@ -29,3 +29,21 @@
 .Nosotros .seccionImage.img2{
     background: #d3edf1;
 }
+
+@media screen and (max-width: 858px){
+    .Nosotros div.textSeccionNosotros{
+        text-align: justify;
+        font-size: 1em;
+        padding: 2em 0;
+        font-family: "Leelawadee UI Semilight";
+    }
+
+    .Nosotros .textSeccionNosotros2 {
+        margin:0 1.5em;
+    }
+
+    .Nosotros .textSeccionNosotros.text2.sec{
+        background: #ececec;
+        margin: 0;
+    }
+}

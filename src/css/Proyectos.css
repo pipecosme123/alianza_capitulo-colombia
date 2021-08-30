@@ -39,3 +39,26 @@
     font-family: "Leelawadee Bold";
     font-size: 1.5em;
 }
+
+@media screen and (max-width: 858px) {
+    .Proyectos .textCabezote{
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .Proyectos .seccionProyecto .sec{
+        flex-direction: column;
+    }
+
+    .Proyectos .seccionProyecto img{
+        width: 40%;
+        height: 40%;
+    }
+
+    .Proyectos .seccionProyecto .textProyecto{
+        width: 100%;
+        text-align: justify;
+        margin-left: 0;
+        font-size: 1em;
+    }
+}

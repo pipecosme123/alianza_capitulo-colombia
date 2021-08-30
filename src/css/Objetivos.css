@@ -47,3 +47,25 @@
 .seccionBarniz .sBarniz .textSeccion {
     width: 70%;
 }
+
+@media screen and (max-width: 858px) {
+    .Objetivos {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .seccionBarniz .sBarniz {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .seccionBarniz .sBarniz .img img {
+        width: 100%;
+        margin: 1em 0 0;
+    }
+    
+    .seccionBarniz .sBarniz .textSeccion {
+        width: 100%;
+    }
+}
